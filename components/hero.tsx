@@ -78,6 +78,7 @@ const Hero = () => {
                         </motion.button>
 
                         <motion.button
+                        onClick={() => window.open('documents/resume.pdf', '_blank')}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="btn-secondary flex items-center gap-2"
