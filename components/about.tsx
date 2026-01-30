@@ -149,6 +149,7 @@ const About = () => {
 
                         {/* Download CV Button */}
                         <motion.button
+                        
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.6 }}
@@ -156,6 +157,7 @@ const About = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             className="btn-primary"
+                            onClick={() => window.open('documents/resume.pdf', '_blank')}
                         >
                             Download Resume
                         </motion.button>
