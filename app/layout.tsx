@@ -6,22 +6,22 @@ import { ThemeProvider } from '@/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-    title: 'Your Name - Portfolio',
-    description: 'Full-stack developer passionate about creating beautiful and functional web applications.',
+    title: 'Muhammad Hammad - Mobile Application Developer',
+    description: 'Senior Flutter Developer with more than 3 years of experience in the field of development',
     keywords: ['developer', 'portfolio', 'web development', 'react', 'next.js'],
-    authors: [{ name: 'Your Name' }],
-    creator: 'Your Name',
+    authors: [{ name: 'Muhammad Hammad' }],
+    creator: 'Muhammad Hammad',
     openGraph: {
         type: 'website',
         locale: 'en_US',
         url: 'https://your-portfolio.vercel.app',
-        title: 'Your Name - Portfolio',
+        title: 'Muhammad Hammad - Mobile Application Developer',
         description: 'Full-stack developer passionate about creating beautiful and functional web applications.',
-        siteName: 'Your Name Portfolio',
+        siteName: 'Muhammad Hammad Portfolio',
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Your Name - Portfolio',
+        title: 'Muhammad Hammad - Mobile Application Developer',
         description: 'Full-stack developer passionate about creating beautiful and functional web applications.',
     },
 }

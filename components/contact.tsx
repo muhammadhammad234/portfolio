@@ -183,7 +183,7 @@ const Contact = () => {
                                             onChange={handleChange}
                                             required
                                             className="w-full px-4 py-3 border border-gray-300 dark:border-dark-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-dark-700 text-gray-900 dark:text-gray-100 transition-colors duration-200"
-                                            placeholder="Your name"
+                                            placeholder="Muhammad Hammad"
                                         />
                                     </div>
                                     <div>

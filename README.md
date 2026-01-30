@@ -132,8 +132,8 @@ Update the metadata in `app/layout.tsx`:
 
 ```typescript
 export const metadata: Metadata = {
-  title: 'Your Name - Portfolio',
-  description: 'Your portfolio description...',
+  title: 'Muhammad Hammad - Mobile Application Developer',
+  description: 'Senior Flutter Developer with more than 3 years of experience in the field of development',
   // Update other meta fields...
 }
 ```
@@ -292,5 +292,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Muhammad Hammad
 # portfolio
