@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://your-portfolio.vercel.app',
+        url: 'portfolio-b9jn-8938jeeut-muhammadhammad234s-projects.vercel.app',
         title: 'Muhammad Hammad - Mobile Application Developer',
         description: 'Full-stack developer passionate about creating beautiful and functional web applications.',
         siteName: 'Muhammad Hammad Portfolio',
