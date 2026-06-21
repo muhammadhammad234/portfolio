@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { User, MapPin, Calendar, Mail, Phone } from 'lucide-react'
+import { User, MapPin, Calendar, Mail, Phone, Download } from 'lucide-react'
 
 const About = () => {
     const personalInfo = [
@@ -13,7 +13,7 @@ const About = () => {
     ]
 
     return (
-        <section id="about" className="section-padding bg-gray-50 dark:bg-dark-800">
+        <section id="about" className="section-padding relative">
             <div className="container-custom">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -22,8 +22,9 @@ const About = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl font-bold mb-4">
-                        About <span className="gradient-text">Me</span>
+                    <span className="eyebrow">About Me</span>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                        The person behind the <span className="gradient-text">pixels</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
                         Get to know me better and understand my journey in the world of technology
@@ -42,8 +43,8 @@ const About = () => {
                         {/* Profile Image */}
                         <div className="relative">
                             <div className="w-80 h-80 mx-auto relative">
-                                <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-purple-500 rounded-full blur-xl opacity-20"></div>
-                                <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-dark-700 shadow-2xl">
+                                <div className="absolute inset-0 bg-gradient-to-br from-primary-500 via-violet-500 to-accent-400 rounded-full blur-2xl opacity-30 animate-aurora"></div>
+                                <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/70 dark:border-white/10 shadow-premium ring-2 ring-primary-500/20">
                                     {/* Replace 'profile.jpg' with your actual image filename */}
                                     <img
                                         src="/images/profile_pic.png"
@@ -124,7 +125,7 @@ const About = () => {
                         </div>
 
                         {/* Key Points */}
-                        <div className="grid sm:grid-cols-2 gap-4">
+                        <div className="grid sm:grid-cols-2 gap-3">
                             {[
                                 'Flutter Development',
                                 'Cross-Platform Apps',
@@ -137,30 +138,33 @@ const About = () => {
                                     key={point}
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.3, delay: index * 0.1 }}
+                                    transition={{ duration: 0.3, delay: index * 0.08 }}
                                     viewport={{ once: true }}
-                                    className="flex items-center gap-2"
+                                    whileHover={{ x: 4 }}
+                                    className="flex items-center gap-3 glass rounded-xl px-4 py-2.5"
                                 >
-                                    <div className="w-2 h-2 bg-primary-600 dark:bg-primary-400 rounded-full"></div>
-                                    <span className="text-gray-700 dark:text-gray-300">{point}</span>
+                                    <span className="w-2 h-2 rounded-full bg-gradient-to-r from-primary-500 to-accent-400 shadow-glow-accent" />
+                                    <span className="text-gray-700 dark:text-gray-300 text-sm font-medium">{point}</span>
                                 </motion.div>
                             ))}
                         </div>
 
                         {/* Download CV Button */}
-                        <motion.button
-                        
+                        <motion.a
+                            href="/documents/resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.6 }}
                             viewport={{ once: true }}
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
+                            whileHover={{ scale: 1.04, y: -2 }}
+                            whileTap={{ scale: 0.96 }}
                             className="btn-primary"
-                            onClick={() => window.open('documents/resume.pdf', '_blank')}
                         >
+                            <Download className="w-5 h-5" aria-hidden="true" />
                             Download Resume
-                        </motion.button>
+                        </motion.a>
                     </motion.div>
                 </div>
             </div>

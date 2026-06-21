@@ -7,10 +7,19 @@ const Experience = () => {
     const workExperience = [
         {
             title: 'Senior Flutter Developer',
+            company: 'Value Growth Advisory',
+            location: 'Pakistan',
+            period: 'Jun 2026 - Present',
+            description: 'Leading mobile application development at Value Growth Advisory, a Kuwait-based advisory firm with operations in Pakistan. Building cross-platform Flutter apps with clean architecture, scalable state management, and a focus on smooth, accessible user experiences.',
+            technologies: ['Flutter', 'Dart', 'Firebase', 'REST APIs', 'State Management', 'CI/CD'],
+            type: 'work'
+        },
+        {
+            title: 'Senior Flutter Developer',
             company: 'Simplitaught',
             location: 'Lahore, Pakistan',
-            period: 'Jan 2024 - Present',
-            description: 'Leading development of enterprise mobile applications using Flutter framework. Building cross-platform apps for iOS and Android with Firebase backend integration, payment processing, and cloud services. Mentoring junior Flutter developers and implementing best practices for mobile app architecture.',
+            period: 'Jan 2024 - May 2026',
+            description: 'Led development of enterprise mobile applications using the Flutter framework. Built cross-platform apps for iOS and Android with Firebase backend integration, payment processing, and cloud services. Mentored junior Flutter developers and implemented best practices for mobile app architecture.',
             technologies: ['Flutter', 'Dart', 'Firebase', 'Firestore', 'Stripe', 'Google Cloud', 'Docker'],
             type: 'work'
         },
@@ -66,7 +75,8 @@ const Experience = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-4xl font-bold mb-4">
+                    <span className="eyebrow">Career</span>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
                         Work <span className="gradient-text">Experience</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
@@ -78,7 +88,7 @@ const Experience = () => {
                 <div className="max-w-4xl mx-auto mb-20">
                     <div className="relative">
                         {/* Timeline Line */}
-                        <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-dark-700"></div>
+                        <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-500 via-violet-500 to-accent-400 opacity-70"></div>
 
                         {workExperience.map((item, index) => (
                             <motion.div
@@ -90,11 +100,15 @@ const Experience = () => {
                                 className="relative mb-12"
                             >
                                 {/* Timeline Dot */}
-                                <div className="absolute left-6 top-6 w-4 h-4 bg-primary-600 dark:bg-primary-400 rounded-full border-4 border-white dark:border-dark-900 z-10"></div>
+                                <div className="absolute left-[1.4rem] top-6 w-5 h-5 rounded-full bg-gradient-to-br from-primary-500 to-accent-400 border-4 border-white dark:border-dark-950 z-10 shadow-glow">
+                                    {index === 0 && (
+                                        <span className="absolute inset-0 rounded-full bg-accent-400 animate-ping opacity-60" />
+                                    )}
+                                </div>
 
                                 {/* Content Card */}
                                 <div className="ml-16">
-                                    <div className="card p-6">
+                                    <motion.div whileHover={{ y: -4 }} className="card p-6 transition-shadow hover:shadow-glow">
                                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
                                             <div>
                                                 <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 mb-1">
@@ -133,7 +147,7 @@ const Experience = () => {
                                                 </span>
                                             ))}
                                         </div>
-                                    </div>
+                                    </motion.div>
                                 </div>
                             </motion.div>
                         ))}

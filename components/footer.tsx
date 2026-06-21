@@ -47,7 +47,8 @@ const Footer = () => {
 
 
     return (
-        <footer className="bg-gray-900 dark:bg-dark-900 text-white">
+        <footer className="relative text-white border-t border-white/10 bg-dark-950/80 backdrop-blur-xl">
+            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary-500/60 to-transparent" />
             <div className="container-custom">
                 <div className="py-12">
                     <div className="grid md:grid-cols-3 gap-8 items-center">
@@ -63,8 +64,8 @@ const Footer = () => {
                                 Muhammad Hammad
                             </h3>
                             <p className="text-gray-400 leading-relaxed">
-                                Flutter mobile developer passionate about creating innovative cross-platform applications
-                                and building exceptional user experiences for iOS and Android.
+                                Senior Flutter developer passionate about crafting innovative cross-platform apps
+                                and exceptional, accessible user experiences for iOS and Android.
                             </p>
                         </motion.div>
 
@@ -83,6 +84,7 @@ const Footer = () => {
                                     { name: 'Skills', href: '#skills' },
                                     { name: 'Projects', href: '#projects' },
                                     { name: 'Experience', href: '#experience' },
+                                    { name: 'Testimonials', href: '#testimonials' },
                                     { name: 'Contact', href: '#contact' }
                                 ].map((link) => (
                                     <a
