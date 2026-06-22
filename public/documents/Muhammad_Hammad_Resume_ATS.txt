@@ -1,0 +1,106 @@
+MUHAMMAD HAMMAD
+Senior Flutter Developer | Mobile Application Developer
+Lahore, Pakistan | +92 310 6883027 | hammadansari234@gmail.com | linkedin.com/in/muhammadhammad234 | github.com/muhammadhammad234
+
+PROFESSIONAL SUMMARY
+------------------------------------------------------------------------
+Senior Flutter Developer with 3+ years of experience building high-performance cross-platform mobile applications for iOS and Android. Proven track record shipping 15+ production apps to Google Play Store and Apple App Store with an average 4.8-star rating. Expert in Dart, Flutter, clean architecture, scalable state management (Provider, Bloc, Riverpod, GetX), Firebase, REST API integration, payment processing (Stripe, Apple Pay, Google Pay), and AI-assisted development workflows. Currently leading mobile development at Value Growth Advisory, a Kuwait-based advisory firm.
+
+TECHNICAL SKILLS
+------------------------------------------------------------------------
+Mobile Development: Flutter, Dart, iOS, Android, Cross-Platform Development, Widget Development, Custom Animations, Platform Channels, Material Design, Cupertino Design
+Architecture & State Management: Clean Architecture, MVVM, Provider, Bloc, Riverpod, GetX, MobX, Code Architecture, Performance Optimization
+Backend & Cloud: Firebase, Firestore, Cloud Functions, Firebase Authentication, Cloud Messaging, Analytics, Crashlytics, REST APIs, GraphQL, WebSocket, FastAPI, Node.js, Google Cloud
+Mobile Features & Integrations: Push Notifications, In-App Purchases, Payment Integration, Stripe, Apple Pay, Google Pay, Geolocation, Geofencing, Google Maps, Radar.io, Deep Linking, Socket.io, WebRTC
+Data & Storage: SQLite, Hive, Drift, Isar, Shared Preferences, Dio, HTTP
+DevOps & Publishing: Google Play Store, Apple App Store, App Store Optimization, Xcode, Android Studio, CI/CD, Docker, Git, Agile Methodology
+AI-Assisted Development: AI-Assisted Development, Cursor IDE, GitHub Copilot, Claude, ChatGPT, Prompt Engineering, Gemini AI
+Testing & Quality: Unit Testing, Widget Testing, UI/UX Design, Figma, Responsive Design
+
+PROFESSIONAL EXPERIENCE
+------------------------------------------------------------------------
+Senior Flutter Developer
+Value Growth Advisory | Pakistan (Remote) | June 2026 – Present
+  - Lead end-to-end mobile application development for a Kuwait-based advisory firm, architecting cross-platform Flutter apps for iOS and Android with clean architecture and scalable state management.
+  - Shipped 7+ production applications to Google Play Store and Apple App Store including Khayr (AI Health Companion), Mingle (Social/Nightlife), Waiz (Healthcare Booking), Compass Travels, Ezhalha, MHN, and Alaaf National.
+  - Integrated Firebase, Firestore, REST APIs, Stripe, Apple Pay, Google Maps, geofencing (Radar.io), Gemini AI, and in-app purchases across consumer and enterprise mobile products.
+  - Established mobile development best practices including CI/CD pipelines, code review standards, and accessible UI/UX patterns for production-grade releases.
+  Technologies: Flutter, Dart, Firebase, Firestore, REST APIs, Stripe, Google Maps, Gemini AI, State Management, CI/CD, iOS, Android
+
+Senior Flutter Developer
+Simplitaught | Lahore, Pakistan | January 2024 – May 2026
+  - Led development of enterprise mobile applications using Flutter framework for iOS and Android platforms serving business and education clients.
+  - Architected and delivered cross-platform apps with Firebase backend integration, Firestore database, Stripe payment processing, and Google Cloud services.
+  - Mentored junior Flutter developers on mobile app architecture, state management patterns, and Flutter best practices to improve team delivery velocity.
+  - Implemented Docker-based development workflows and maintained high code quality through unit testing, widget testing, and performance optimization.
+  Technologies: Flutter, Dart, Firebase, Firestore, Stripe, Google Cloud, Docker, REST APIs, State Management
+
+Flutter Developer
+Rex Technologies | Lahore, Pakistan | September 2023 – December 2023
+  - Developed and maintained multiple Flutter mobile applications for e-commerce and EdTech clients with full lifecycle ownership from design to deployment.
+  - Successfully published applications on both Google Play Store and Apple App Store, meeting platform compliance and App Store Optimization requirements.
+  - Collaborated with cross-functional teams including designers, product managers, and backend engineers to deliver high-quality mobile solutions on schedule.
+  - Integrated Firebase services, REST APIs, push notifications, and payment gateways into production mobile applications.
+  Technologies: Flutter, Dart, Firebase, REST APIs, Xcode, Android Studio, Google Play Store, Apple App Store
+
+Flutter Developer
+GhairMulki Software House | Multan, Pakistan | July 2022 – August 2023
+  - Built responsive cross-platform mobile applications using Flutter with custom UI components and Material Design implementation.
+  - Integrated REST APIs and Firebase backend services to deliver feature-rich mobile experiences for diverse client projects.
+  - Worked closely with UI/UX designers to translate Figma designs into pixel-perfect, performant Flutter interfaces.
+  - Published multiple applications on Google Play Store with positive user feedback and stable production performance.
+  Technologies: Flutter, Dart, Firebase, REST APIs, Material Design, Google Play Store
+
+KEY PROJECTS
+------------------------------------------------------------------------
+Khayr – AI Health Companion | 2025 – Present
+  - Built AI-powered health companion app with Gemini AI symptom checker, personalized health assessments, and in-app purchases; rated 5.0 stars on Google Play.
+  - Technologies: Flutter, Dart, Firebase, Firestore, Gemini AI, In-App Purchases, iOS, Android.
+  - Google Play: https://play.google.com/store/apps/details?id=com.keybotix.khayr
+  - App Store: https://apps.apple.com/us/app/khayr-ai-health-companion/id6749851886
+
+Mingle – Social & Nightlife App | 2025
+  - Developed social discovery app with automatic venue check-in/out via geofencing, in-app wallet, Stripe and Apple Pay payments, and real-time activity tracking.
+  - Technologies: Flutter, Firebase, Radar.io, Geofencing, Google Maps, Stripe, Apple Pay.
+  - Google Play: https://play.google.com/store/apps/details?id=com.app.mingle
+  - App Store: https://apps.apple.com/app/mingle-social-app/id6737700806
+
+Waiz – Healthcare Appointment Booking | 2025
+  - Created healthcare booking platform enabling patients to search doctors by specialty, book appointments, and manage visit history with push notification reminders; 500+ downloads.
+  - Technologies: Flutter, Dart, REST APIs, Push Notifications, Scheduling, Reviews.
+  - Google Play: https://play.google.com/store/apps/details?id=com.waizapp
+
+Compass Travels – Travel Booking | 2025
+  - Built all-in-one travel companion for flights, hotels, rental cars, and travel supplies with secure payment integration and real-time booking notifications.
+  - Technologies: Flutter, Dart, REST APIs, Payments, Maps, Push Notifications.
+  - Google Play: https://play.google.com/store/apps/details?id=com.compasskuwait.store
+
+Ezhalha – Store Management Platform | 2025
+  - Developed business management app with store profiles, wallet balances, transaction history, and customer review monitoring dashboards.
+  - Technologies: Flutter, Dart, REST APIs, State Management, Dashboards.
+  - Google Play: https://play.google.com/store/apps/details?id=com.vga.azhelha
+
+MHN – Creative Marketplace | 2025
+  - Built location-aware marketplace connecting users with artists and designers via category browsing, portfolio profiles, and direct WhatsApp/call integration.
+  - Technologies: Flutter, Dart, Firebase, Geolocation, REST APIs, Deep Linking.
+  - Google Play: https://play.google.com/store/apps/details?id=com.vga.mehn
+
+Alaaf National – E-Commerce | 2025
+  - Developed animal feed e-commerce application with product catalog, cart, checkout, and secure payment processing for livestock owners.
+  - Technologies: Flutter, Dart, REST APIs, E-Commerce, Cart and Checkout, Payments.
+  - Google Play: https://play.google.com/store/apps/details?id=com.vga.national_feed_vga
+
+EDUCATION
+------------------------------------------------------------------------
+Bachelor of Science in Computer Engineering
+Bahauddin Zakariya University | Multan, Pakistan | 2019 – 2023
+Specialization in Software Engineering and Artificial Intelligence. GPA: 3.6/4.0. Coursework in algorithms, data structures, software development principles, and artificial intelligence.
+
+CERTIFICATIONS
+------------------------------------------------------------------------
+  - Flutter Development Certification – Google (2024)
+  - Firebase for Flutter – Google Firebase (2023)
+  - Dart Programming Language – Google (2023)
+  - Mobile App Development – Udemy (2022)
+  - Google Play Console – Google Play (2022)
+  - Apple Developer Program – Apple (2022)
